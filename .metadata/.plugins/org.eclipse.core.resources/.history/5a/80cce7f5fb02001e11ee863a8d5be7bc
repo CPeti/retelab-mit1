@@ -38,13 +38,9 @@ public class RunStatechart {
                 s.raiseBlack();
             } else {
                 System.out.println("Érvénytelen esemény.");
-                continue;
             }
             s.runCycle();
-            print(s);
         }
-		s.runCycle();
-		print(s);
 		System.exit(0);
 	}
 

@@ -41,10 +41,7 @@ public class RunStatechart {
                 continue;
             }
             s.runCycle();
-            print(s);
         }
-		s.runCycle();
-		print(s);
 		System.exit(0);
 	}
 
